@@ -1,0 +1,1759 @@
+{
+  error: TypeError: require(...) is not a function
+      at Object.<anonymous> (D:\Nk React\React 2021\sample3_movie_app\server\index.js:7:28)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)
+      at node:internal/main/run_main_module:17:47,
+  level: 'error',
+  message: 'uncaughtException: require(...) is not a function\n' +
+    'TypeError: require(...) is not a function\n' +
+    '    at Object.<anonymous> (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js:7:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)\n' +
+    '    at node:internal/main/run_main_module:17:47',
+  stack: 'TypeError: require(...) is not a function\n' +
+    '    at Object.<anonymous> (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js:7:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)\n' +
+    '    at node:internal/main/run_main_module:17:47',
+  exception: true,
+  date: 'Mon Aug 30 2021 09:13:15 GMT-0700 (Pacific Daylight Time)',
+  process: {
+    pid: 2820,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v15.8.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 63447040,
+      heapTotal: 37249024,
+      heapUsed: 21513160,
+      external: 37329620,
+      arrayBuffers: 36279636
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 41473 },
+  trace: [
+    {
+      column: 28,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 76,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-08-30T16:13:15.953Z'
+}
+{
+  error: MongoParseError: options usefindandmodify, usecreateindex are not supported
+      at Object.parseOptions (D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongodb\lib\connection_string.js:281:15)
+      at new MongoClient (D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongodb\lib\mongo_client.js:62:46)
+      at D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongoose\lib\connection.js:785:16
+      at new Promise (<anonymous>)
+      at NativeConnection.Connection.openUri (D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongoose\lib\connection.js:782:19)
+      at D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongoose\lib\index.js:330:10
+      at D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+      at new Promise (<anonymous>)
+      at promiseOrCallback (D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+      at Mongoose._promiseOrCallback (D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongoose\lib\index.js:1151:10),
+  level: 'error',
+  message: 'unhandledRejection: options usefindandmodify, usecreateindex are not supported\n' +
+    'MongoParseError: options usefindandmodify, usecreateindex are not supported\n' +
+    '    at Object.parseOptions (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongodb\\lib\\connection_string.js:281:15)\n' +
+    '    at new MongoClient (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongodb\\lib\\mongo_client.js:62:46)\n' +
+    '    at D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\connection.js:785:16\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at NativeConnection.Connection.openUri (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\connection.js:782:19)\n' +
+    '    at D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\index.js:330:10\n' +
+    '    at D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at promiseOrCallback (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n' +
+    '    at Mongoose._promiseOrCallback (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\index.js:1151:10)',
+  stack: 'MongoParseError: options usefindandmodify, usecreateindex are not supported\n' +
+    '    at Object.parseOptions (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongodb\\lib\\connection_string.js:281:15)\n' +
+    '    at new MongoClient (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongodb\\lib\\mongo_client.js:62:46)\n' +
+    '    at D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\connection.js:785:16\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at NativeConnection.Connection.openUri (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\connection.js:782:19)\n' +
+    '    at D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\index.js:330:10\n' +
+    '    at D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at promiseOrCallback (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n' +
+    '    at Mongoose._promiseOrCallback (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\index.js:1151:10)',
+  exception: true,
+  date: 'Mon Aug 30 2021 09:13:16 GMT-0700 (Pacific Daylight Time)',
+  process: {
+    pid: 2820,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v15.8.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 64266240,
+      heapTotal: 37249024,
+      heapUsed: 21901224,
+      external: 37337876,
+      arrayBuffers: 36287852
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 41473 },
+  trace: [
+    {
+      column: 15,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongodb\\lib\\connection_string.js',
+      function: 'Object.parseOptions',
+      line: 281,
+      method: 'parseOptions',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongodb\\lib\\mongo_client.js',
+      function: 'new MongoClient',
+      line: 62,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\connection.js',
+      function: null,
+      line: 785,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'new Promise',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\connection.js',
+      function: 'NativeConnection.Connection.openUri',
+      line: 782,
+      method: 'openUri',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\index.js',
+      function: null,
+      line: 330,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js',
+      function: null,
+      line: 32,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'new Promise',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js',
+      function: 'promiseOrCallback',
+      line: 31,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\index.js',
+      function: 'Mongoose._promiseOrCallback',
+      line: 1151,
+      method: '_promiseOrCallback',
+      native: false
+    }
+  ],
+  timestamp: '2021-08-30T16:13:16.204Z'
+}
+{
+  error: TypeError: require(...) is not a function
+      at Object.<anonymous> (D:\Nk React\React 2021\sample3_movie_app\server\index.js:7:28)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)
+      at node:internal/main/run_main_module:17:47,
+  level: 'error',
+  message: 'uncaughtException: require(...) is not a function\n' +
+    'TypeError: require(...) is not a function\n' +
+    '    at Object.<anonymous> (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js:7:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)\n' +
+    '    at node:internal/main/run_main_module:17:47',
+  stack: 'TypeError: require(...) is not a function\n' +
+    '    at Object.<anonymous> (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js:7:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)\n' +
+    '    at node:internal/main/run_main_module:17:47',
+  exception: true,
+  date: 'Mon Aug 30 2021 09:14:28 GMT-0700 (Pacific Daylight Time)',
+  process: {
+    pid: 8744,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v15.8.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 63799296,
+      heapTotal: 53764096,
+      heapUsed: 22449008,
+      external: 37364025,
+      arrayBuffers: 36314041
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 41545 },
+  trace: [
+    {
+      column: 28,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 76,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-08-30T16:14:28.103Z'
+}
+{
+  error: MongoParseError: options usefindandmodify, usecreateindex are not supported
+      at Object.parseOptions (D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongodb\lib\connection_string.js:281:15)
+      at new MongoClient (D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongodb\lib\mongo_client.js:62:46)
+      at D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongoose\lib\connection.js:785:16
+      at new Promise (<anonymous>)
+      at NativeConnection.Connection.openUri (D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongoose\lib\connection.js:782:19)
+      at D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongoose\lib\index.js:330:10
+      at D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+      at new Promise (<anonymous>)
+      at promiseOrCallback (D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+      at Mongoose._promiseOrCallback (D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongoose\lib\index.js:1151:10),
+  level: 'error',
+  message: 'unhandledRejection: options usefindandmodify, usecreateindex are not supported\n' +
+    'MongoParseError: options usefindandmodify, usecreateindex are not supported\n' +
+    '    at Object.parseOptions (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongodb\\lib\\connection_string.js:281:15)\n' +
+    '    at new MongoClient (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongodb\\lib\\mongo_client.js:62:46)\n' +
+    '    at D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\connection.js:785:16\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at NativeConnection.Connection.openUri (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\connection.js:782:19)\n' +
+    '    at D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\index.js:330:10\n' +
+    '    at D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at promiseOrCallback (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n' +
+    '    at Mongoose._promiseOrCallback (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\index.js:1151:10)',
+  stack: 'MongoParseError: options usefindandmodify, usecreateindex are not supported\n' +
+    '    at Object.parseOptions (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongodb\\lib\\connection_string.js:281:15)\n' +
+    '    at new MongoClient (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongodb\\lib\\mongo_client.js:62:46)\n' +
+    '    at D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\connection.js:785:16\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at NativeConnection.Connection.openUri (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\connection.js:782:19)\n' +
+    '    at D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\index.js:330:10\n' +
+    '    at D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at promiseOrCallback (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n' +
+    '    at Mongoose._promiseOrCallback (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\index.js:1151:10)',
+  exception: true,
+  date: 'Mon Aug 30 2021 09:14:28 GMT-0700 (Pacific Daylight Time)',
+  process: {
+    pid: 8744,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v15.8.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 64647168,
+      heapTotal: 53764096,
+      heapUsed: 22599472,
+      external: 37372281,
+      arrayBuffers: 36322257
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 41545 },
+  trace: [
+    {
+      column: 15,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongodb\\lib\\connection_string.js',
+      function: 'Object.parseOptions',
+      line: 281,
+      method: 'parseOptions',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongodb\\lib\\mongo_client.js',
+      function: 'new MongoClient',
+      line: 62,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\connection.js',
+      function: null,
+      line: 785,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'new Promise',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\connection.js',
+      function: 'NativeConnection.Connection.openUri',
+      line: 782,
+      method: 'openUri',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\index.js',
+      function: null,
+      line: 330,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js',
+      function: null,
+      line: 32,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'new Promise',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js',
+      function: 'promiseOrCallback',
+      line: 31,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\index.js',
+      function: 'Mongoose._promiseOrCallback',
+      line: 1151,
+      method: '_promiseOrCallback',
+      native: false
+    }
+  ],
+  timestamp: '2021-08-30T16:14:28.265Z'
+}
+{
+  error: TypeError: Cannot create property 'Symbol(level)' on string 'error:jwtPrivateKey is not defined'
+      at DerivedLogger.log (D:\Nk React\React 2021\sample3_movie_app\server\node_modules\winston\lib\winston\logger.js:208:20)
+      at module.exports (D:\Nk React\React 2021\sample3_movie_app\server\startup\config.js:6:16)
+      at Object.<anonymous> (D:\Nk React\React 2021\sample3_movie_app\server\index.js:8:28)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)
+      at node:internal/main/run_main_module:17:47,
+  level: 'error',
+  message: "uncaughtException: Cannot create property 'Symbol(level)' on string 'error:jwtPrivateKey is not defined'\n" +
+    "TypeError: Cannot create property 'Symbol(level)' on string 'error:jwtPrivateKey is not defined'\n" +
+    '    at DerivedLogger.log (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\winston\\lib\\winston\\logger.js:208:20)\n' +
+    '    at module.exports (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\startup\\config.js:6:16)\n' +
+    '    at Object.<anonymous> (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js:8:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)\n' +
+    '    at node:internal/main/run_main_module:17:47',
+  stack: "TypeError: Cannot create property 'Symbol(level)' on string 'error:jwtPrivateKey is not defined'\n" +
+    '    at DerivedLogger.log (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\winston\\lib\\winston\\logger.js:208:20)\n' +
+    '    at module.exports (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\startup\\config.js:6:16)\n' +
+    '    at Object.<anonymous> (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js:8:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)\n' +
+    '    at node:internal/main/run_main_module:17:47',
+  exception: true,
+  date: 'Mon Aug 30 2021 09:15:06 GMT-0700 (Pacific Daylight Time)',
+  process: {
+    pid: 10956,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v15.8.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 64057344,
+      heapTotal: 54026240,
+      heapUsed: 20898048,
+      external: 37272279,
+      arrayBuffers: 36222295
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 41583 },
+  trace: [
+    {
+      column: 20,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\winston\\lib\\winston\\logger.js',
+      function: 'DerivedLogger.log',
+      line: 208,
+      method: 'log',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\startup\\config.js',
+      function: 'module.exports',
+      line: 6,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 76,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-08-30T16:15:06.177Z'
+}
+{
+  error: MongoParseError: options usefindandmodify, usecreateindex are not supported
+      at Object.parseOptions (D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongodb\lib\connection_string.js:281:15)
+      at new MongoClient (D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongodb\lib\mongo_client.js:62:46)
+      at D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongoose\lib\connection.js:785:16
+      at new Promise (<anonymous>)
+      at NativeConnection.Connection.openUri (D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongoose\lib\connection.js:782:19)
+      at D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongoose\lib\index.js:330:10
+      at D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+      at new Promise (<anonymous>)
+      at promiseOrCallback (D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+      at Mongoose._promiseOrCallback (D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongoose\lib\index.js:1151:10),
+  level: 'error',
+  message: 'unhandledRejection: options usefindandmodify, usecreateindex are not supported\n' +
+    'MongoParseError: options usefindandmodify, usecreateindex are not supported\n' +
+    '    at Object.parseOptions (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongodb\\lib\\connection_string.js:281:15)\n' +
+    '    at new MongoClient (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongodb\\lib\\mongo_client.js:62:46)\n' +
+    '    at D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\connection.js:785:16\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at NativeConnection.Connection.openUri (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\connection.js:782:19)\n' +
+    '    at D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\index.js:330:10\n' +
+    '    at D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at promiseOrCallback (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n' +
+    '    at Mongoose._promiseOrCallback (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\index.js:1151:10)',
+  stack: 'MongoParseError: options usefindandmodify, usecreateindex are not supported\n' +
+    '    at Object.parseOptions (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongodb\\lib\\connection_string.js:281:15)\n' +
+    '    at new MongoClient (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongodb\\lib\\mongo_client.js:62:46)\n' +
+    '    at D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\connection.js:785:16\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at NativeConnection.Connection.openUri (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\connection.js:782:19)\n' +
+    '    at D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\index.js:330:10\n' +
+    '    at D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at promiseOrCallback (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n' +
+    '    at Mongoose._promiseOrCallback (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\index.js:1151:10)',
+  exception: true,
+  date: 'Mon Aug 30 2021 09:15:06 GMT-0700 (Pacific Daylight Time)',
+  process: {
+    pid: 10956,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v15.8.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 64901120,
+      heapTotal: 54026240,
+      heapUsed: 21070296,
+      external: 37282917,
+      arrayBuffers: 36222319
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 41583 },
+  trace: [
+    {
+      column: 15,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongodb\\lib\\connection_string.js',
+      function: 'Object.parseOptions',
+      line: 281,
+      method: 'parseOptions',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongodb\\lib\\mongo_client.js',
+      function: 'new MongoClient',
+      line: 62,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\connection.js',
+      function: null,
+      line: 785,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'new Promise',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\connection.js',
+      function: 'NativeConnection.Connection.openUri',
+      line: 782,
+      method: 'openUri',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\index.js',
+      function: null,
+      line: 330,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js',
+      function: null,
+      line: 32,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'new Promise',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js',
+      function: 'promiseOrCallback',
+      line: 31,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\index.js',
+      function: 'Mongoose._promiseOrCallback',
+      line: 1151,
+      method: '_promiseOrCallback',
+      native: false
+    }
+  ],
+  timestamp: '2021-08-30T16:15:06.263Z'
+}
+{
+  error: TypeError: Cannot create property 'Symbol(level)' on string 'error:jwtPrivateKey is not defined'
+      at DerivedLogger.log (D:\Nk React\React 2021\sample3_movie_app\server\node_modules\winston\lib\winston\logger.js:208:20)
+      at module.exports (D:\Nk React\React 2021\sample3_movie_app\server\startup\config.js:6:16)
+      at Object.<anonymous> (D:\Nk React\React 2021\sample3_movie_app\server\index.js:8:28)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)
+      at node:internal/main/run_main_module:17:47,
+  level: 'error',
+  message: "uncaughtException: Cannot create property 'Symbol(level)' on string 'error:jwtPrivateKey is not defined'\n" +
+    "TypeError: Cannot create property 'Symbol(level)' on string 'error:jwtPrivateKey is not defined'\n" +
+    '    at DerivedLogger.log (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\winston\\lib\\winston\\logger.js:208:20)\n' +
+    '    at module.exports (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\startup\\config.js:6:16)\n' +
+    '    at Object.<anonymous> (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js:8:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)\n' +
+    '    at node:internal/main/run_main_module:17:47',
+  stack: "TypeError: Cannot create property 'Symbol(level)' on string 'error:jwtPrivateKey is not defined'\n" +
+    '    at DerivedLogger.log (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\winston\\lib\\winston\\logger.js:208:20)\n' +
+    '    at module.exports (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\startup\\config.js:6:16)\n' +
+    '    at Object.<anonymous> (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js:8:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)\n' +
+    '    at node:internal/main/run_main_module:17:47',
+  exception: true,
+  date: 'Mon Aug 30 2021 09:15:31 GMT-0700 (Pacific Daylight Time)',
+  process: {
+    pid: 11996,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v15.8.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 63844352,
+      heapTotal: 54026240,
+      heapUsed: 20988952,
+      external: 37272279,
+      arrayBuffers: 36222295
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 41609 },
+  trace: [
+    {
+      column: 20,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\winston\\lib\\winston\\logger.js',
+      function: 'DerivedLogger.log',
+      line: 208,
+      method: 'log',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\startup\\config.js',
+      function: 'module.exports',
+      line: 6,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 76,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-08-30T16:15:31.849Z'
+}
+{
+  error: MongoParseError: options usefindandmodify, usecreateindex are not supported
+      at Object.parseOptions (D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongodb\lib\connection_string.js:281:15)
+      at new MongoClient (D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongodb\lib\mongo_client.js:62:46)
+      at D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongoose\lib\connection.js:785:16
+      at new Promise (<anonymous>)
+      at NativeConnection.Connection.openUri (D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongoose\lib\connection.js:782:19)
+      at D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongoose\lib\index.js:330:10
+      at D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+      at new Promise (<anonymous>)
+      at promiseOrCallback (D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+      at Mongoose._promiseOrCallback (D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongoose\lib\index.js:1151:10),
+  level: 'error',
+  message: 'unhandledRejection: options usefindandmodify, usecreateindex are not supported\n' +
+    'MongoParseError: options usefindandmodify, usecreateindex are not supported\n' +
+    '    at Object.parseOptions (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongodb\\lib\\connection_string.js:281:15)\n' +
+    '    at new MongoClient (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongodb\\lib\\mongo_client.js:62:46)\n' +
+    '    at D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\connection.js:785:16\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at NativeConnection.Connection.openUri (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\connection.js:782:19)\n' +
+    '    at D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\index.js:330:10\n' +
+    '    at D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at promiseOrCallback (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n' +
+    '    at Mongoose._promiseOrCallback (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\index.js:1151:10)',
+  stack: 'MongoParseError: options usefindandmodify, usecreateindex are not supported\n' +
+    '    at Object.parseOptions (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongodb\\lib\\connection_string.js:281:15)\n' +
+    '    at new MongoClient (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongodb\\lib\\mongo_client.js:62:46)\n' +
+    '    at D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\connection.js:785:16\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at NativeConnection.Connection.openUri (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\connection.js:782:19)\n' +
+    '    at D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\index.js:330:10\n' +
+    '    at D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at promiseOrCallback (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n' +
+    '    at Mongoose._promiseOrCallback (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\index.js:1151:10)',
+  exception: true,
+  date: 'Mon Aug 30 2021 09:15:32 GMT-0700 (Pacific Daylight Time)',
+  process: {
+    pid: 11996,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v15.8.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 64634880,
+      heapTotal: 54026240,
+      heapUsed: 21160832,
+      external: 37282917,
+      arrayBuffers: 36222319
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 41609 },
+  trace: [
+    {
+      column: 15,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongodb\\lib\\connection_string.js',
+      function: 'Object.parseOptions',
+      line: 281,
+      method: 'parseOptions',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongodb\\lib\\mongo_client.js',
+      function: 'new MongoClient',
+      line: 62,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\connection.js',
+      function: null,
+      line: 785,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'new Promise',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\connection.js',
+      function: 'NativeConnection.Connection.openUri',
+      line: 782,
+      method: 'openUri',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\index.js',
+      function: null,
+      line: 330,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js',
+      function: null,
+      line: 32,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'new Promise',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js',
+      function: 'promiseOrCallback',
+      line: 31,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\index.js',
+      function: 'Mongoose._promiseOrCallback',
+      line: 1151,
+      method: '_promiseOrCallback',
+      native: false
+    }
+  ],
+  timestamp: '2021-08-30T16:15:32.061Z'
+}
+{
+  error: MongoParseError: options usefindandmodify, usecreateindex are not supported
+      at Object.parseOptions (D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongodb\lib\connection_string.js:281:15)
+      at new MongoClient (D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongodb\lib\mongo_client.js:62:46)
+      at D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongoose\lib\connection.js:785:16
+      at new Promise (<anonymous>)
+      at NativeConnection.Connection.openUri (D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongoose\lib\connection.js:782:19)
+      at D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongoose\lib\index.js:330:10
+      at D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+      at new Promise (<anonymous>)
+      at promiseOrCallback (D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+      at Mongoose._promiseOrCallback (D:\Nk React\React 2021\sample3_movie_app\server\node_modules\mongoose\lib\index.js:1151:10),
+  level: 'error',
+  message: 'unhandledRejection: options usefindandmodify, usecreateindex are not supported\n' +
+    'MongoParseError: options usefindandmodify, usecreateindex are not supported\n' +
+    '    at Object.parseOptions (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongodb\\lib\\connection_string.js:281:15)\n' +
+    '    at new MongoClient (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongodb\\lib\\mongo_client.js:62:46)\n' +
+    '    at D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\connection.js:785:16\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at NativeConnection.Connection.openUri (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\connection.js:782:19)\n' +
+    '    at D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\index.js:330:10\n' +
+    '    at D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at promiseOrCallback (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n' +
+    '    at Mongoose._promiseOrCallback (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\index.js:1151:10)',
+  stack: 'MongoParseError: options usefindandmodify, usecreateindex are not supported\n' +
+    '    at Object.parseOptions (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongodb\\lib\\connection_string.js:281:15)\n' +
+    '    at new MongoClient (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongodb\\lib\\mongo_client.js:62:46)\n' +
+    '    at D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\connection.js:785:16\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at NativeConnection.Connection.openUri (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\connection.js:782:19)\n' +
+    '    at D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\index.js:330:10\n' +
+    '    at D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at promiseOrCallback (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n' +
+    '    at Mongoose._promiseOrCallback (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\index.js:1151:10)',
+  exception: true,
+  date: 'Mon Aug 30 2021 09:17:49 GMT-0700 (Pacific Daylight Time)',
+  process: {
+    pid: 5096,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v15.8.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 65126400,
+      heapTotal: 54812672,
+      heapUsed: 28343536,
+      external: 37704630,
+      arrayBuffers: 36635508
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 41746 },
+  trace: [
+    {
+      column: 15,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongodb\\lib\\connection_string.js',
+      function: 'Object.parseOptions',
+      line: 281,
+      method: 'parseOptions',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongodb\\lib\\mongo_client.js',
+      function: 'new MongoClient',
+      line: 62,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\connection.js',
+      function: null,
+      line: 785,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'new Promise',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\connection.js',
+      function: 'NativeConnection.Connection.openUri',
+      line: 782,
+      method: 'openUri',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\index.js',
+      function: null,
+      line: 330,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js',
+      function: null,
+      line: 32,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'new Promise',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js',
+      function: 'promiseOrCallback',
+      line: 31,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\mongoose\\lib\\index.js',
+      function: 'Mongoose._promiseOrCallback',
+      line: 1151,
+      method: '_promiseOrCallback',
+      native: false
+    }
+  ],
+  timestamp: '2021-08-30T16:17:49.384Z'
+}
+{
+  error: Error: Cannot find module '../middleware/admin'
+  Require stack:
+  - D:\Nk React\React 2021\sample3_movie_app\server\routes\Users.js
+  - D:\Nk React\React 2021\sample3_movie_app\server\startup\router.js
+  - D:\Nk React\React 2021\sample3_movie_app\server\index.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:925:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:769:27)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18)
+      at Object.<anonymous> (D:\Nk React\React 2021\sample3_movie_app\server\routes\Users.js:2:15)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Module.require (node:internal/modules/cjs/loader:997:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\routes\\Users.js',
+      'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\startup\\router.js',
+      'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module '../middleware/admin'\n" +
+    'Require stack:\n' +
+    '- D:\\Nk React\\React 2021\\sample3_movie_app\\server\\routes\\Users.js\n' +
+    '- D:\\Nk React\\React 2021\\sample3_movie_app\\server\\startup\\router.js\n' +
+    '- D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js\n' +
+    "Error: Cannot find module '../middleware/admin'\n" +
+    'Require stack:\n' +
+    '- D:\\Nk React\\React 2021\\sample3_movie_app\\server\\routes\\Users.js\n' +
+    '- D:\\Nk React\\React 2021\\sample3_movie_app\\server\\startup\\router.js\n' +
+    '- D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:925:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:769:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\routes\\Users.js:2:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)',
+  stack: "Error: Cannot find module '../middleware/admin'\n" +
+    'Require stack:\n' +
+    '- D:\\Nk React\\React 2021\\sample3_movie_app\\server\\routes\\Users.js\n' +
+    '- D:\\Nk React\\React 2021\\sample3_movie_app\\server\\startup\\router.js\n' +
+    '- D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:925:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:769:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\routes\\Users.js:2:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)',
+  exception: true,
+  date: 'Mon Aug 30 2021 09:46:31 GMT-0700 (Pacific Daylight Time)',
+  process: {
+    pid: 12732,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v15.8.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 64442368,
+      heapTotal: 54288384,
+      heapUsed: 22662560,
+      external: 37409160,
+      arrayBuffers: 36359176
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 43469 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 925,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 769,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 15,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\routes\\Users.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2021-08-30T16:46:32.175Z'
+}
+{
+  error: TypeError: Cannot create property 'Symbol(level)' on string 'error:jwtPrivateKey is not defined'
+      at DerivedLogger.log (D:\Nk React\React 2021\sample3_movie_app\server\node_modules\winston\lib\winston\logger.js:208:20)
+      at module.exports (D:\Nk React\React 2021\sample3_movie_app\server\startup\config.js:6:16)
+      at Object.<anonymous> (D:\Nk React\React 2021\sample3_movie_app\server\index.js:8:28)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)
+      at node:internal/main/run_main_module:17:47,
+  level: 'error',
+  message: "uncaughtException: Cannot create property 'Symbol(level)' on string 'error:jwtPrivateKey is not defined'\n" +
+    "TypeError: Cannot create property 'Symbol(level)' on string 'error:jwtPrivateKey is not defined'\n" +
+    '    at DerivedLogger.log (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\winston\\lib\\winston\\logger.js:208:20)\n' +
+    '    at module.exports (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\startup\\config.js:6:16)\n' +
+    '    at Object.<anonymous> (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js:8:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)\n' +
+    '    at node:internal/main/run_main_module:17:47',
+  stack: "TypeError: Cannot create property 'Symbol(level)' on string 'error:jwtPrivateKey is not defined'\n" +
+    '    at DerivedLogger.log (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\winston\\lib\\winston\\logger.js:208:20)\n' +
+    '    at module.exports (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\startup\\config.js:6:16)\n' +
+    '    at Object.<anonymous> (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js:8:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)\n' +
+    '    at node:internal/main/run_main_module:17:47',
+  exception: true,
+  date: 'Mon Aug 30 2021 10:45:03 GMT-0700 (Pacific Daylight Time)',
+  process: {
+    pid: 13116,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v15.8.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 71249920,
+      heapTotal: 56934400,
+      heapUsed: 33230288,
+      external: 37706023,
+      arrayBuffers: 36669986
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 46981 },
+  trace: [
+    {
+      column: 20,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\winston\\lib\\winston\\logger.js',
+      function: 'DerivedLogger.log',
+      line: 208,
+      method: 'log',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\startup\\config.js',
+      function: 'module.exports',
+      line: 6,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 76,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-08-30T17:45:04.180Z'
+}
+{
+  error: TypeError: Cannot create property 'Symbol(level)' on string 'error:jwtPrivateKey is not defined'
+      at DerivedLogger.log (D:\Nk React\React 2021\sample3_movie_app\server\node_modules\winston\lib\winston\logger.js:208:20)
+      at module.exports (D:\Nk React\React 2021\sample3_movie_app\server\startup\config.js:6:16)
+      at Object.<anonymous> (D:\Nk React\React 2021\sample3_movie_app\server\index.js:8:28)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)
+      at node:internal/main/run_main_module:17:47,
+  level: 'error',
+  message: "uncaughtException: Cannot create property 'Symbol(level)' on string 'error:jwtPrivateKey is not defined'\n" +
+    "TypeError: Cannot create property 'Symbol(level)' on string 'error:jwtPrivateKey is not defined'\n" +
+    '    at DerivedLogger.log (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\winston\\lib\\winston\\logger.js:208:20)\n' +
+    '    at module.exports (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\startup\\config.js:6:16)\n' +
+    '    at Object.<anonymous> (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js:8:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)\n' +
+    '    at node:internal/main/run_main_module:17:47',
+  stack: "TypeError: Cannot create property 'Symbol(level)' on string 'error:jwtPrivateKey is not defined'\n" +
+    '    at DerivedLogger.log (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\winston\\lib\\winston\\logger.js:208:20)\n' +
+    '    at module.exports (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\startup\\config.js:6:16)\n' +
+    '    at Object.<anonymous> (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js:8:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)\n' +
+    '    at node:internal/main/run_main_module:17:47',
+  exception: true,
+  date: 'Tue Aug 31 2021 23:43:20 GMT-0700 (Pacific Daylight Time)',
+  process: {
+    pid: 14152,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v15.8.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 75972608,
+      heapTotal: 56147968,
+      heapUsed: 37952208,
+      external: 38679503,
+      arrayBuffers: 37629519
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 180078 },
+  trace: [
+    {
+      column: 20,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\node_modules\\winston\\lib\\winston\\logger.js',
+      function: 'DerivedLogger.log',
+      line: 208,
+      method: 'log',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\startup\\config.js',
+      function: 'module.exports',
+      line: 6,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 76,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-09-01T06:43:20.712Z'
+}
+{
+  error: ReferenceError: app is not defined
+      at Object.<anonymous> (D:\Nk React\React 2021\sample3_movie_app\server\routes\home.js:5:1)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+      at Module.load (node:internal/modules/cjs/loader:973:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+      at Module.require (node:internal/modules/cjs/loader:997:19)
+      at require (node:internal/modules/cjs/helpers:92:18)
+      at Object.<anonymous> (D:\Nk React\React 2021\sample3_movie_app\server\startup\router.js:5:15)
+      at Module._compile (node:internal/modules/cjs/loader:1108:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10),
+  level: 'error',
+  message: 'uncaughtException: app is not defined\n' +
+    'ReferenceError: app is not defined\n' +
+    '    at Object.<anonymous> (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\routes\\home.js:5:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\startup\\router.js:5:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)',
+  stack: 'ReferenceError: app is not defined\n' +
+    '    at Object.<anonymous> (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\routes\\home.js:5:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:973:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:813:14)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:997:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:92:18)\n' +
+    '    at Object.<anonymous> (D:\\Nk React\\React 2021\\sample3_movie_app\\server\\startup\\router.js:5:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1108:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)',
+  exception: true,
+  date: 'Wed Sep 01 2021 00:11:22 GMT-0700 (Pacific Daylight Time)',
+  process: {
+    pid: 13972,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v15.8.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 75153408,
+      heapTotal: 56410112,
+      heapUsed: 37480192,
+      external: 38667458,
+      arrayBuffers: 37617474
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 181763 },
+  trace: [
+    {
+      column: 1,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\routes\\home.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 973,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 813,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 997,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 15,
+      file: 'D:\\Nk React\\React 2021\\sample3_movie_app\\server\\startup\\router.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1108,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1137,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2021-09-01T07:11:25.888Z'
+}
